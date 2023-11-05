@@ -15,7 +15,7 @@
       }
 
       .id-card {
-        background: rgba(255,255,255, 0.5);
+        background: rgba(255, 255, 255, 0.5);
         width: 90vw;
         height: 90vh;
         border-radius: 20px;
@@ -50,37 +50,36 @@
   </head>
 
   <body>
-    
     <div class="id-card">
       <div>
         <img src="images/me.jpg" class="pic" alt="picture of me" />
         <!-- <img src="images/qr_code.png"> -->
       </div>
-    <form class="info" action="send.php" method="post">
-      <div class="info" style="font-size: 25px;">
-        <h2>Овог:</h2>
-        <input type="text" id="lname" name="lname">
-      <h2>Нэр:</h2>
-      <input type="text" id="fname" name="fname">
-      <p>Сургууль:</p>
-      <input type="text" id="uni" name="uni">
-      <p>Хөтөлбөр:</p>
-      <input type="text" id="program" name="program">
-      <p>E-mail:</p>
-      <input type="text" id="Email" name="Email">
-      <p style="font-weight: bold;">Сонирхлууд:</p>
-      <ul class="hobby" >
-        <li><input type="text" id="hobby" name="hobby"></li>
-        <li><input type="text" id="hobby" name="hobby"></li>
-        <li><input type="text" id="hobby" name="hobby"></li>
-        <li><input type="text" id="hobby" name="hobby"></li>
-        <li><input type="text" id="hobby" name="hobby"></li>
-      </ul>
-      
-      </div>
-    </form>    
-      
-      <img src="images/qr_code.png" style="scale: 20%;">
+      <form class="info" action="https://csii203-at-num-2023autumn-w1.azurewebsites.net/api/endpoint1?code=0SU6dqRROd2ob5QkEyF_uLTQXibfoiqEjfcg01rpZINFAzFuSVuOtA==" method="get">
+        <div class="info" style="font-size: 25px">
+          <h2>Овог:</h2>
+          <input type="text" id="lname" name="lname" />
+          <h2>Нэр:</h2>
+          <input type="text" id="fname" name="fname" />
+          <p>Сургууль:</p>
+          <input type="text" id="uni" name="uni" />
+          <p>Хөтөлбөр:</p>
+          <input type="text" id="program" name="program" />
+          <p>E-mail:</p>
+          <input type="text" id="Email" name="Email" />
+          <p style="font-weight: bold">Сонирхлууд:</p>
+          <ul class="hobby">
+            <li><input type="text" id="hobby" name="hobby" /></li>
+            <li><input type="text" id="hobby" name="hobby" /></li>
+            <li><input type="text" id="hobby" name="hobby" /></li>
+            <li><input type="text" id="hobby" name="hobby" /></li>
+            <li><input type="text" id="hobby" name="hobby" /></li>
+          </ul>
+          <input type="submit">
+        </div>
+      </form>
+
+      <img src="images/qr_code.png" style="scale: 20%" />
     </div>
   </body>
 </html>
