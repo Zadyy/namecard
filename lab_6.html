@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en, mgl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        background-image: url(images/background1.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .id-card {
+        background: rgba(255,255,255, 0.5);
+        width: 90vw;
+        height: 90vh;
+        border-radius: 20px;
+        align-items: center;
+        padding: 20px;
+        display: grid;
+      }
+
+      .info {
+        display: grid;
+        grid-column: 2;
+        text-size-adjust: 200%;
+      }
+
+      .images {
+        align-items: center;
+      }
+
+      .pic {
+        width: 60%;
+        height: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+        margin: 20px;
+        left: 40%;
+      }
+
+      .hobby {
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="id-card">
+      <div>
+        <img src="images/me.jpg" class="pic" alt="picture of me" />
+        <!-- <img src="images/qr_code.png"> -->
+      </div>
+        
+      <div class="info" style="font-size: 30px;">
+        <h2>Овог: Очир</h2>
+      <h2>Нэр: Нямбаяр</h2>
+      <p>Сургууль: Монгол Улсын Их Сургууль</p>
+      <p>Хөтөлбөр: Програм хангамж</p>
+      <p style="font-weight: bold;">Сонирхлууд:</p>
+      <ul class="hobby" >
+        <li>Аниме үзэх</li>
+        <li>Манга, зохиол унших</li>
+        <li>Bubble tea уух</li>
+        <li>Аудио ном сонсох</li>
+        <li>Хайртай хүнтэйгээ цагийг цуг өнгөрөөх</li>
+      </ul>
+      
+      </div>
+      <img src="images/qr_code.png" style="scale: 20%;">
+    </div>
+  </body>
+</html>
